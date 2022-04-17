@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "142041749005",
+    "project_id": "physicaleducation-2ff5f",
+    "storage_bucket": "physicaleducation-2ff5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142041749005:android:7da6c9537b71a78a172744",
+        "android_client_info": {
+          "package_name": "com.example.physicaleducation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142041749005-kia3qcd6ali786u3vojlg01bco0pc713.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.physicaleducation",
+            "certificate_hash": "fd78c2ff524ed34e4c60d49cf913b319cf443277"
+          }
+        },
+        {
+          "client_id": "142041749005-nh7080gvgquj5q4d3hopi5i4f0c2eg9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj7Q5E6-BuIEmFbgj67ZdbZ6TRb4KsHec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "142041749005-nh7080gvgquj5q4d3hopi5i4f0c2eg9b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
