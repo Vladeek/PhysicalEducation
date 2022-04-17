@@ -69,7 +69,7 @@ public class LoginActivity extends AppCompatActivity {
         if (requestCode == REGISTRATION_ACTIVITY_REQUEST_CODE && resultCode == RESULT_OK) {
 
             Teacher teacher = new Teacher();
-            teacher.setID(mDataBase.getKey());
+            teacher.setID(mDataBase.getKey()); //TODO исправить id
             teacher.setName(data.getStringArrayExtra(RegistrationActivity.EXTRA_REPLY)[0]);
             teacher.setLogin(data.getStringArrayExtra(RegistrationActivity.EXTRA_REPLY)[1]);
             teacher.setPassword(data.getStringArrayExtra(RegistrationActivity.EXTRA_REPLY)[2]);

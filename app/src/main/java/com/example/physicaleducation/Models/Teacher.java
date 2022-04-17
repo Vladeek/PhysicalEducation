@@ -6,6 +6,7 @@ public class Teacher {
     private String mName;
     private String mLogin;
     private String mPassword;
+    private boolean isAdmin;
 
     public Teacher() {
 
@@ -19,4 +20,10 @@ public class Teacher {
     public String getLogin(){return this.mLogin;}
     public void setPassword(String password) {this.mPassword = password;}
     public String getPassword(){return this.mPassword;}
+    public boolean isAdmin() {
+        return isAdmin;
+    }
+    public void setAdmin(boolean admin) {
+        isAdmin = admin;
+    }
 }
