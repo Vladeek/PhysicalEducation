@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.student.StudentFragment">
+
+    <TextView
+        android:id="@+id/student"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Студенты"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/chooseFaculty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/student">
+
+        <TextView
+            android:id="@+id/faculty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:text="Факультет"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/group" />
+
+        <Spinner
+            android:id="@+id/spinnerFaculty"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            app:layout_constraintStart_toEndOf="@+id/faculty"
+            app:layout_constraintTop_toTopOf="@+id/faculty" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chooseCourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chooseFaculty">
+
+        <TextView
+            android:id="@+id/course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:text="Курс"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/group" />
+
+        <Spinner
+            android:id="@+id/spinnerCourse"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            app:layout_constraintStart_toEndOf="@+id/faculty"
+            app:layout_constraintTop_toTopOf="@+id/faculty" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chooseGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chooseCourse">
+
+        <TextView
+            android:id="@+id/group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:text="Группа"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/group" />
+
+        <Spinner
+            android:id="@+id/spinnerGroup"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            app:layout_constraintStart_toEndOf="@+id/faculty"
+            app:layout_constraintTop_toTopOf="@+id/faculty" />
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/addCourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chooseGroup" />
+
+    <Button
+        android:id="@+id/addCourseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Добавить"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch1" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addCourseButton"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addCourse" />
+
+    <TextView
+        android:id="@+id/male"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="М"
+        app:layout_constraintBottom_toBottomOf="@+id/switch1"
+        app:layout_constraintStart_toEndOf="@+id/switch1"
+        app:layout_constraintTop_toTopOf="@+id/switch1" />
+
+    <TextView
+        android:id="@+id/female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:text="Ж"
+        app:layout_constraintBottom_toBottomOf="@+id/switch1"
+        app:layout_constraintEnd_toStartOf="@+id/switch1"
+        app:layout_constraintTop_toTopOf="@+id/switch1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

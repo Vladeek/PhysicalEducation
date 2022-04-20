@@ -11,6 +11,11 @@ public class Faculty {
         this.mFacultyName = mFacultyName;
     }
 
+    public Faculty(String mID, String mFacultyName) {
+        this.mID = mID;
+        this.mFacultyName = mFacultyName;
+    }
+
     public Faculty() {
     }
 

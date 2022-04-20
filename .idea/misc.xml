@@ -3,9 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/study/6sem/PhysicalEducation/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.39479166666666665" />
+        <entry key="..\:/study/6sem/PhysicalEducation/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.39479166666666665" />
+        <entry key="..\:/study/6sem/PhysicalEducation/app/src/main/res/drawable/side_nav_bar.xml" value="0.39479166666666665" />
         <entry key="..\:/study/6sem/PhysicalEducation/app/src/main/res/layout/activity_login.xml" value="0.37864583333333335" />
         <entry key="..\:/study/6sem/PhysicalEducation/app/src/main/res/layout/activity_main.xml" value="0.3645833333333333" />
         <entry key="..\:/study/6sem/PhysicalEducation/app/src/main/res/layout/activity_registration.xml" value="0.37864583333333335" />
+        <entry key="..\:/study/6sem/PhysicalEducation/app/src/main/res/layout/app_bar_main.xml" value="0.37864583333333335" />
+        <entry key="..\:/study/6sem/PhysicalEducation/app/src/main/res/layout/content_main.xml" value="0.37864583333333335" />
+        <entry key="..\:/study/6sem/PhysicalEducation/app/src/main/res/layout/fragment_add.xml" value="0.33" />
+        <entry key="..\:/study/6sem/PhysicalEducation/app/src/main/res/layout/fragment_course.xml" value="0.37864583333333335" />
+        <entry key="..\:/study/6sem/PhysicalEducation/app/src/main/res/layout/fragment_faculty.xml" value="0.37864583333333335" />
+        <entry key="..\:/study/6sem/PhysicalEducation/app/src/main/res/layout/fragment_gallery.xml" value="0.37864583333333335" />
+        <entry key="..\:/study/6sem/PhysicalEducation/app/src/main/res/layout/fragment_group.xml" value="0.37864583333333335" />
+        <entry key="..\:/study/6sem/PhysicalEducation/app/src/main/res/layout/fragment_home.xml" value="0.37864583333333335" />
+        <entry key="..\:/study/6sem/PhysicalEducation/app/src/main/res/layout/fragment_student.xml" value="0.37864583333333335" />
+        <entry key="..\:/study/6sem/PhysicalEducation/app/src/main/res/layout/nav_header_main.xml" value="0.37864583333333335" />
+        <entry key="..\:/study/6sem/PhysicalEducation/app/src/main/res/menu/activity_main_drawer.xml" value="0.37864583333333335" />
       </map>
     </option>
   </component>
